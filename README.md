@@ -5,6 +5,7 @@ Develop a real-time system to identify the spoken language in audio samples by
 converting signal features like MFCCs into fixed-dimensional embeddings (xVectors) via a
 neural network (e.g., TDNN). The system should robustly handle diverse conditions such as
 noise, varying accents, and device variability.
+
 Motivation:
 
  Why can’t we directly compare the acoustic features of the signal and features of
@@ -40,4 +41,4 @@ cross-entropy for optimization.
 Evaluation Metrics
  1) Measure performance using F1 Score and Accuracy. And check it with test data
 
-dataset link : https://www.kaggle.com/datasets/rathnasabapathy/language-speech
+dataset link : (https://www.kaggle.com/datasets/sizlingdhairya1/iiit-spoken-language-datasets)

@@ -1,10 +1,12 @@
 
-Objective
+Objective:
+
 Develop a real-time system to identify the spoken language in audio samples by
 converting signal features like MFCCs into fixed-dimensional embeddings (xVectors) via a
 neural network (e.g., TDNN). The system should robustly handle diverse conditions such as
 noise, varying accents, and device variability.
-Motivation
+Motivation:
+
  Why can’t we directly compare the acoustic features of the signal and features of
 specific languages? It is because features like MFCCs are affected by noise, recording
 devices and transmission channels, same speaker’s voice may have different mood so there
@@ -17,7 +19,9 @@ processing by collapsing variable-length inputs into fixed-length embeddings. Ov
 spoken language identification has various application and requires real time and accurate
 results. xVector performance in tasks like speaker verification and identifications inspires
 their application in language identification.
-Methodology
+
+Methodology:
+
 Dataset Collection and Preprocessing
  1) Collect language-specific audio files with corresponding labels.
  2) Perform preprocessing, such as noise reduction and normalization, to ensure quality.
